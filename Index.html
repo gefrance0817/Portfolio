@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gerald Peter Chua Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/316ebe006d.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+                    <h1>Hi, I'm <span>Gerald</span><br>From The Philippines</h1>
+                </div>
+            </div>
+           </div>
+           <!--------------about----------------------->
+           <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Portfolio/Image/AboutMe.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>As a doctor transitioning into web development, I am focused on specializing in web design. I aim to blend medical knowledge with creative digital skills to craft visually appealing and user-friendly websites that enhance the online presence of healthcare services.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')"">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/iOs Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Present</span><br>UI/UX Design Training at freeCodeCamp Website</li>
+                            <li><span>2023 - Present</span><br>Roving OH Physician at EEI Corporation</li>
+                            <li><span>2019 - 2023</span><br>Project Physician at DMCI Homes, Inc.</li>
+                            <li><span>2017 - 2023</span><br>Project Physician at DMCI Homes, Inc.</li>
+                            <li><span>2016 - 2017</span><br>Post Graduate Intern at Quezon City General Hospital</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>UI/UX Design Training at freeCodeCamp Website</li>
+                            <li><span>2010 - 2016</span><br>Doctor of Medicine from FEU-NRMF</li>
+                            <li><span>2006 - 2010</span><br>Bachelor of Science in Nursing from FEU</li>
+                            <li><span>2002 - 2006</span><br>High School Graduate from Saint Gabriel International School</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+           </div>
+<!---------services--------------->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design involves creating the visual appearance and layout of websites. It includes designing elements like colors, fonts, images, and overall structure to ensure a user-friendly and aesthetically pleasing experience for visitors. Good web design also considers usability, functionality, and accessibility to cater to a diverse audience.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>UI/UX design focuses on creating intuitive and engaging experiences for users interacting with digital products like websites or apps. UI (User Interface) design deals with the look and feel, including elements like buttons, icons, and layout. UX (User Experience) design focuses on the overall experience, ensuring it's easy, enjoyable, and efficient for users to achieve their goals when using the product. Both UI and UX design aim to enhance usability and satisfaction through thoughtful design decisions.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>App design involves creating the visual and functional interface for mobile applications. It encompasses designing screens, navigation, icons, and interactive elements to ensure a seamless and engaging user experience. App design also considers factors like usability, accessibility, and branding to deliver a cohesive and enjoyable experience for users on smartphones and tablets.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------portfolio------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Portfolio/Image/Social Media App.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>A digital platform where users can create profiles, share content, connect with friends, and engage in online communities through features like posting, liking, commenting, and messaging.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Portfolio/Image/Music App.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>A platform that allows users to stream or download music, create playlists, discover new songs and artists, and often includes features like personalized recommendations based on user preferences.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Portfolio/Image/Online Shopping App.jpeg">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>A software where users can browse, select, and purchase products from various retailers or brands. It typically offers features like product search, detailed descriptions, reviews, secure payment options, and delivery tracking.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!---------contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> contact@gefrance0817@gmail.com</p>
+                <p><i class="fa-solid fa-mobile"></i> 09664602109</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/geraldpc1"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Portfolio/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright made by <i class="fa-solid fa-basketball"></i> Gerald</p>
+    </div>
+</div>
+           <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            
+            function opentab(tabname) {
+                for(tablink of tablinks) {
+                    tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+           </script>
+
+           <script>
+
+                var sidemenu = document.getElementById("sidemenu");
+
+                function openmenu() {
+                    sidemenu.style.right = "0";
+                }
+                function closemenu() {
+                    sidemenu.style.right = "-200px";
+                }
+           </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzn3Hc5_qPe7oqzYljctWSGzyHK4HFzU429eY4csZjL0bK97ZxRHt8gTKsfgPgOIQy--Q/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function() {
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+</html>
